@@ -50,4 +50,3 @@ with mp_face_detection.FaceDetection(min_detection_confidence = 0.5, model_selec
 
     cv2.imshow('img', img)
     cv2.waitKey(0)
-
