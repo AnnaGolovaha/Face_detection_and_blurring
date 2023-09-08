@@ -36,8 +36,8 @@ def process_img(img, face_detection):
 # создадим объект с аргументами, чтобы вызывать нужную программу
 args = argparse.ArgumentParser()
 
-args.add_argument('--mode', default = 'video') #Здесь выбираем режим
-args.add_argument('--filePath', default = './data/testVideo.mp4')
+args.add_argument('--mode', default = 'image') #Здесь выбираем режим
+args.add_argument('--filePath', default = './data/test_photo.png')
 
 args = args.parse_args()
 
